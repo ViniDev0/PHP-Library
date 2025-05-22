@@ -1,0 +1,26 @@
+.wrapper {
+  text-align: center;
+}
+.FormsHandler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.inputs {
+  width: 600px;
+  height: 40px;
+  font-size: 2vmin;
+}
+.inputs::placeholder {
+  font-size: 2vmin;
+}
+.SendBTN {
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
